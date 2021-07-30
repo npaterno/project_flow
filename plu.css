@@ -10,6 +10,10 @@ h1, h2, h3{
   text-align: left;
 }
 
+.main{
+  background-color: #f3e5f5;
+}
+
 .inverse{
   position: relative;
   justify-content: center;
@@ -50,13 +54,28 @@ main.h1{
     position: fixed;
     top: 95%;
     left: 0;
-    text-align: center;
-    width: 100%;
+    text-align: left;
+    width: 50%;
     font-size: 90%;
-  
 }
 
 .remark-slide-content {
     font-size: 26px;
     padding: 1em 4em 1em 4em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px; 
 }
