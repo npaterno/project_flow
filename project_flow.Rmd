@@ -1,0 +1,19 @@
+---
+title: "Project Based Workflow"
+author: "N. Paterno"
+institute: "PLU"
+output:
+  xaringan::moon_reader:
+    css: plu.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+# Project Based Workflow:
